@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-color: rgba(162, 185, 189, 0.692);
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Arial', sans-serif;
+}
+
+    .avatar{
+        width: 200px; 
+        border-radius: 28px;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+    }
+    h2{
+        color: rgb(42, 81, 165);
+    }
+    .viber{
+        color: rgb(21, 20, 21);
+    }
+    .info p {
+
+        font-style: italic;
+        color: rgb(49, 39, 39);
+    }
+    
+  .conteiner{
+    max-width: 750px;
+    margin:auto ;
+  }
+  
+  .info{
+    display: flex; 
+   
+  }
+    .info-text{
+        margin-left: 10px;
+    }
+
+    .cart{
+        padding: 15px 20px; 
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+
+.bg-yellow{
+    background: #fdff95;
+    margin-top: 20px;
+}
+
+.bg-green{
+    background:rgb(216, 236, 216);
+}
+.bg-violet{
+    background:rgb(224, 192, 214);
+}
+.contact h2 {
+    text-align: center;
+
+}
+.form-gr label{
+    display: block;
+    font-size: 14px;
+    color: #141413;
+
+}
+.form-gr input,
+.form-gr textarea
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    color: black;
+    padding:15px 0 10px ;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-gr{
+    width: 50%;
+    margin-right: 20px;
+}
+.btn{
+    background:black ;
+    padding: 15px 20px;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9; 
+}
+.table{
+    width: 100%;
+}
+.table td{
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+
+}
