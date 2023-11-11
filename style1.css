@@ -8,7 +8,7 @@ body {
 }
 
     .avatar{
-        width: 200px; 
+        width: 200px;
         border-radius: 28px;
         box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 
@@ -24,22 +24,19 @@ body {
         font-style: italic;
         color: rgb(49, 39, 39);
     }
-    
   .conteiner{
     max-width: 750px;
     margin:auto ;
   }
-  
   .info{
-    display: flex; 
-   
+    display: flex;
   }
     .info-text{
         margin-left: 10px;
     }
 
     .cart{
-        padding: 15px 20px; 
+        padding: 15px 20px;
         margin-bottom: 20px;
         border-radius: 20px;
     }
